@@ -6,26 +6,34 @@ def addition(a, b):
 
 
 def subtraction(a, b):
+    a = int(a)
+    b = int(b)
     c = a - b
     return c
 
 
 def multiplication(a, b):
+    a = int(a)
+    b = int(b)
     c = a * b
     return c
 
 
 def division(a, b):
+    a = int(a)
+    b = int(b)
     c = a / b
     return c
 
 
 def square(a):
+    a = int(a)
     c = a ** 2
     return c
 
 
 def square_root(a):
+    a = int(a)
     c = a ** 0.5
     return c
 
