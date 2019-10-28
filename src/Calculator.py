@@ -22,7 +22,8 @@ def multiplication(a, b):
 def division(a, b):
     a = int(a)
     b = int(b)
-    c = a / b
+    c = b / a
+    c = round(c, 9)
     return c
 
 
